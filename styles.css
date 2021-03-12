@@ -43,3 +43,14 @@ body {
     transform: translate3d(0, 200px, 0);
   }
 }
+
+/* Shadow under ball */
+.shadow {
+  background-color: rgba(8, 8, 8, 0.05);
+  height: 10px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  top: 310px;
+  animation: shrink 0.9s infinite;
+}
